@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: rgb(78, 59, 227);
+    background: rgb(72, 54, 205);
 }
 
 .container{
@@ -29,6 +29,7 @@ body{
     height: auto;
     border-radius: 24px;
     background: white;
+    opacity: 0.5;
     
     
 }
@@ -43,6 +44,7 @@ body{
     margin-top: 1%;
     float: inherit;
     margin-left: 5%;
+    width: 10%;
 }
 .tittle{
     float: inherit;
@@ -61,6 +63,7 @@ body{
     outline: none;
     background: #fdfffd;
     border-radius: 20px;
+    opacity: 0.5;
 }
 #imgmun{
     margin-left: 2%;
@@ -71,7 +74,7 @@ body{
 #texto{
     margin-left: 7%;
     margin-right: 5%;
-    color: #0a3871;
+
 }
 #texto2{
     float: left;
@@ -82,24 +85,26 @@ body{
     outline: none;
     font-size: 15px;
 }
-#btn-encrip{
-    padding: 24px;
-    width: 30%;
-    height: 60%;
-    border-radius: 24px;
-    margin-left: 15%;
-    background: #0a3871;
-    color: white;
-}
-#btn-desencrip{
+
+.boton{
     padding: 24px;
     width:30%;
-    height:60%;
     border-radius:  24px;
-    margin-left: 5%;
-    background: #0a3871;
-    color: white;
+    margin-left: 15%;
+    cursor: pointer;
+    background-color:rgb(72, 54, 205);
+    
+  
+    
 }
+
+.boton:hover{
+    background-color: rgb(40, 147, 219);
+    box-shadow: 0 0 20px rgb(245, 245, 246);
+      
+}
+
+
 #copiar{
     margin-left: 33%;
     margin-top: 90%;
@@ -109,12 +114,14 @@ body{
     background:#d8dfe8 ;
     border-radius: 24px;
     display:none;
-
 }
+
 p{
     color: white;
+    align-items: center;
 }
 .pie{
     margin-left:28%;
     color:white;
+    
 }
